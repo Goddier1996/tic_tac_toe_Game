@@ -19,8 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2%;
-
+    margin-top: 5%;
 }
 
 .rowStyleBoard {
@@ -55,7 +54,7 @@ body {
 .gamePC {
     width: 300px;
     margin: 60px auto 0;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .boardVsPc {
@@ -76,7 +75,7 @@ body {
 
 .countResultVsPc {
     width: 40%;
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -125,6 +124,7 @@ body {
 
 .logo img {
     height: 280px;
+    margin-top: 5%;
 }
 
 
