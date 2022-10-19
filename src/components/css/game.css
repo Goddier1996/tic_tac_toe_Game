@@ -1,0 +1,194 @@
+body {
+    background: url("/src/images/homebag.png");
+}
+
+/* swal css model */
+.swal2-container.swal2-center>.swal2-popup {
+    font-size: 13px;
+    border-radius: 15px;
+    background: #151b1ff3;
+    color: white;
+}
+
+
+
+
+/* vs user */
+
+.boardVsUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+.rowStyleBoard {
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.squareVsUser {
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid #002b59;
+    box-sizing: border-box;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* vs pc */
+
+
+.gamePC {
+    width: 300px;
+    margin: 60px auto 0;
+    margin-top: 2%;
+}
+
+.boardVsPc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.square {
+    height: 100px;
+    border: 1.5px solid #002b59;
+    font-size: 3.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #002b59;
+}
+
+
+.countResultVsPc {
+    width: 40%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.countResultVsPc p {
+    color: #002b59;
+    font-size: 20px;
+}
+
+.modelResult {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ClearHistoryCount {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+/* home page */
+
+
+.chooiseOptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo,
+.info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info p {
+    color: #002b59;
+}
+
+.logo img {
+    height: 280px;
+}
+
+
+.colorButtonVsUser {
+    background: #f4699b;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.colorButtonVsPc {
+    background: #69aa4d;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+
+
+
+
+/* menu */
+
+.styleMenu {
+    display: flex;
+    justify-content: center;
+}
+
+
+.highlight {
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
+    color: rgba(102, 102, 102, 0.793);
+}
+
+
+
+.styleFotter {
+    position: fixed;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    color: #002b59;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:991px) {
+
+    .countResultVsPc {
+        width: 80%;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+
+    .ClearHistoryCount {
+        margin-top: 9%;
+    }
+
+}
