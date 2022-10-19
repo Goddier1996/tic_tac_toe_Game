@@ -11,7 +11,8 @@ Link website - https://tic-tac-toe-game-cool.netlify.app
 
 # Video :
 
-https://user-images.githubusercontent.com/59862302/196674165-9cb3003e-5954-40a5-a3b9-0f3c5463f275.mp4
+https://user-images.githubusercontent.com/59862302/196684461-1e121244-a73a-440d-bcc3-b4e26eacb156.mp4
+
 
 # Home Page :
 ![Screenshot 2022-10-19 145256](https://user-images.githubusercontent.com/59862302/196683607-30997b6b-4e87-4a63-b355-0fa974ee374d.jpg)
