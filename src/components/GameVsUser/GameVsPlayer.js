@@ -237,7 +237,7 @@ function GameVsPlayer() {
 
                     <p>X : {WinnerUserXvsUser}</p>
                     <p>O : {WinnerUserOvsUser}</p>
-                    <p>No one Win : {noOneWinGame}</p>
+                    <p>Draw : {noOneWinGame}</p>
 
                 </div>
             </div>

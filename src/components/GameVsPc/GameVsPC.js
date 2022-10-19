@@ -278,7 +278,7 @@ function GameVsPC() {
 
                     <p>X : {WinnerUserX}</p>
                     <p>O : {WinnerPcO}</p>
-                    <p>No one Win : {NoOneWin}</p>
+                    <p>Draw : {NoOneWin}</p>
 
                 </div>
             </div>
