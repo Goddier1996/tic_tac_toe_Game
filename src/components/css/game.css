@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .rowStyleBoard {
@@ -54,7 +54,7 @@ body {
 .gamePC {
     width: 300px;
     margin: 60px auto 0;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .boardVsPc {
@@ -75,7 +75,7 @@ body {
 
 .countResultVsPc {
     width: 40%;
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -115,7 +115,6 @@ body {
 .info {
     display: flex;
     justify-content: center;
-
 }
 
 .info p {
@@ -124,7 +123,7 @@ body {
 
 .logo img {
     height: 280px;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
@@ -181,6 +180,13 @@ body {
 
     .countResultVsPc {
         width: 80%;
+        margin-top: 5%;
+    }
+
+
+    .gamePC,
+    .boardVsUser {
+        margin-top: 5%;
     }
 
 
@@ -195,7 +201,6 @@ body {
 
 
     .logo img {
-        
         margin-top: 10%;
     }
 
