@@ -11,10 +11,6 @@ body {
 }
 
 
-@font-face {
-    font-family: myFirstFont;
-    src: url("./stylesheet.css")
-  }
 
 /* vs user */
 
