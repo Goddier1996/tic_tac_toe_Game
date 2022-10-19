@@ -300,9 +300,19 @@ function GameVsPC() {
             </div>
 
 
+
+
+
             <div className='ClearHistoryCount'>
-                <Button onClick={ClearResultCount} variant="primary" style={{ color: "white", fontSize: "14px" }}>clear history count result</Button>
-                <Button href='/' variant="danger" style={{ color: "white", fontSize: "14px" }}>Exit Home Page</Button>
+
+                <div className='colorButtonClear'>
+                    <Button onClick={ClearResultCount} variant="primary" style={{ color: "white", fontSize: "14px" }}>clear history count result</Button>
+                </div>
+
+                <div className='colorButtoExit'>
+                    <Button href='/' variant="danger" style={{ color: "white", fontSize: "14px" }}>Exit Home Page</Button>
+                </div>
+
             </div>
 
         </div>
