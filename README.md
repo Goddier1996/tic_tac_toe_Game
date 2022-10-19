@@ -1,4 +1,4 @@
-# Tic Tac Toe Game - ReactJs Css
+# Tic Tac Toe Game - ReactJs , Css
   
 in this Game you can play:
 1) user vs user
