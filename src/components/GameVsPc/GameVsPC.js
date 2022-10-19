@@ -237,7 +237,7 @@ function GameVsPC() {
         if (winner == 'No One') {
 
             Swal.fire({
-                icon: 'success',
+                icon: 'warning',
                 html: `<h4>no one win</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,

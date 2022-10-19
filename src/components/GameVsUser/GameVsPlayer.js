@@ -203,7 +203,7 @@ function GameVsPlayer() {
         if (result.winner == "No One") {
 
             Swal.fire({
-                icon: 'success',
+                icon: 'warning',
                 html: `<h4>No One win this game</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
