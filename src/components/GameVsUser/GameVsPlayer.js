@@ -161,7 +161,7 @@ function GameVsPlayer() {
 
             Swal.fire({
                 icon: 'success',
-                html: `<h4>Game Finished! Winning Player: (${result.winner})</h4>`,
+                html: `<h4>The Winner is Player: (${result.winner})</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 
@@ -183,7 +183,7 @@ function GameVsPlayer() {
 
             Swal.fire({
                 icon: 'success',
-                html: `<h4>Game Finished! Winning Player: (${result.winner})</h4>`,
+                html: `<h4>The Winner is Player: (${result.winner})</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 
@@ -204,7 +204,7 @@ function GameVsPlayer() {
 
             Swal.fire({
                 icon: 'warning',
-                html: `<h4>No One win this game</h4>`,
+                html: `<h4>No One Win this game</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 

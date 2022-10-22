@@ -192,7 +192,7 @@ function GameVsPC() {
 
             Swal.fire({
                 icon: 'success',
-                html: `<h4>The winner is the user (${winner})</h4>`,
+                html: `<h4>The Winner is the User (${winner})</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 
@@ -215,7 +215,7 @@ function GameVsPC() {
 
             Swal.fire({
                 icon: 'success',
-                html: `<h4>The winner is the Computer (${winner})</h4>`,
+                html: `<h4>The Winner is the Computer (${winner})</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 
@@ -238,7 +238,7 @@ function GameVsPC() {
 
             Swal.fire({
                 icon: 'warning',
-                html: `<h4>no one win</h4>`,
+                html: `<h4>No One Win this game</h4>`,
                 confirmButtonColor: 'green',
                 confirmButtonText: `start new game`,
 
