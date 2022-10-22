@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 import "../components/css/game.css"
 
 
-
+// here was Home Page,user chiose Game vs pc or user vs user
 function Home() {
 
 

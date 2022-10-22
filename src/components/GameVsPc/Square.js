@@ -1,5 +1,5 @@
 
-
+// this is components vs in components GameVsPC.js
 function Square(props) {
 
 

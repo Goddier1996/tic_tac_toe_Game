@@ -14,15 +14,18 @@ function App() {
 
     <BrowserRouter>
 
+      {/* active compnents menu */}
       <Menu />
 
       <Switch>
+
         <Route path="/" exact component={Home} />
         <Route path="/GameVsPC" exact component={GameVsPC} />
         <Route path="/GameVsPlayer" exact component={GameVsPlayer} />
 
       </Switch>
 
+      {/* active compnents footer */}
       <Footer />
 
     </BrowserRouter>

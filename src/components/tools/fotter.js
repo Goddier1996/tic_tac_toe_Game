@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-
+// here Footer components
 function Fotter() {
 
     return (

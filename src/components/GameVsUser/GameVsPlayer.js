@@ -2,12 +2,12 @@ import "../css/game.css"
 import { useState, useEffect } from "react";
 import Square from "./SquareVsuser";
 import Swal from 'sweetalert2'
-import { useHistory } from 'react-router-dom';
 import { Button } from 'react-bootstrap'
 
 
-
+// this is components Game,user vs user
 function GameVsPlayer() {
+
 
     // take from local storage a date how much win pc and user
     let WinnerUserXvsUser = localStorage.getItem("WinnerUserXvsUser")
@@ -22,7 +22,6 @@ function GameVsPlayer() {
     const [player, setPlayer] = useState("O");
     const [result, setResult] = useState({ winner: "none", state: "none" });
 
-    const history = useHistory()
 
 
     // line for win
@@ -36,6 +35,7 @@ function GameVsPlayer() {
         [0, 4, 8],
         [2, 4, 6],
     ];
+
 
 
 
@@ -54,6 +54,7 @@ function GameVsPlayer() {
             })
         );
     };
+
 
 
 
@@ -89,6 +90,7 @@ function GameVsPlayer() {
 
 
 
+
     // check if no one win game
     const checkIfTie = () => {
 
@@ -105,6 +107,7 @@ function GameVsPlayer() {
             setResult({ winner: "No One", state: "Tie" });
         }
     };
+
 
 
 
@@ -131,6 +134,7 @@ function GameVsPlayer() {
 
 
 
+
     useEffect(() => {
 
         // avtive a functions
@@ -146,7 +150,6 @@ function GameVsPlayer() {
         else {
             setPlayer("X");
         }
-
 
     }, [board]);
 
@@ -179,6 +182,7 @@ function GameVsPlayer() {
         }
 
 
+
         if (result.winner == "O") {
 
             Swal.fire({
@@ -198,6 +202,7 @@ function GameVsPlayer() {
             // save to local a count user win
             localStorage.setItem("WinnerUserOvsUser", ++WinnerUserOvsUser);
         }
+
 
 
         if (result.winner == "No One") {
@@ -220,8 +225,8 @@ function GameVsPlayer() {
             localStorage.setItem("noOneWinGame", ++noOneWinGame);
         }
 
-
     }, [result]);
+
 
 
 

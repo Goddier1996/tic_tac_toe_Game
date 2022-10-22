@@ -3,13 +3,11 @@ import '../css/game.css';
 import Square from "./Square";
 import { useState, useEffect } from 'react';
 import Swal from 'sweetalert2'
-import { useHistory } from 'react-router-dom';
 
 
-
+// this is components Game,user vs pc
 function GameVsPC() {
 
-    const history = useHistory()
 
 
     // take from local storage a date how much win pc and user
