@@ -1,5 +1,4 @@
 # Tic Tac Toe Game - ReactJs , Css
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=goddier1996&label=Profile%20views&color=0e75b6&style=flat" alt="goddier1996" /> </p>
 
   
 in this Game you can play:
