@@ -114,12 +114,6 @@ body {
 
 /* home page */
 
-.homePage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .chooiseOptions {
     display: flex;
@@ -139,6 +133,7 @@ body {
 
 .logo img {
     height: 280px;
+    margin-top: 2%;
 }
 
 
@@ -213,8 +208,14 @@ body {
         font-size: 14px;
     }
 
+
     .ClearHistoryCount {
         margin-top: 9%;
+    }
+
+
+    .logo img {
+        margin-top: 13%;
     }
 
 }
