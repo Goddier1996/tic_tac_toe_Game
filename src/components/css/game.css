@@ -31,14 +31,14 @@ body {
 .squareVsUser {
     width: 100px;
     height: 100px;
-    border: 1.5px solid #002b59;
+    border: 1.5px solid #002b59b5;
     box-sizing: border-box;
     font-size: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    cursor: pointer;
+    cursor: url("/src/images/pen.ico"), pointer;
 }
 
 
@@ -66,10 +66,10 @@ body {
 
 .square {
     height: 100px;
-    border: 1.5px solid #002b59;
+    border: 1.5px solid #002b59b5;
     font-size: 3.5rem;
     text-align: center;
-    cursor: pointer;
+    cursor: url("/src/images/pen.ico"), pointer;
     color: #002b59;
 }
 
