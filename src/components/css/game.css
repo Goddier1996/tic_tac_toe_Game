@@ -50,11 +50,18 @@ body {
 
 /* vs pc */
 
+.styleGameVsPc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .gamePC {
     width: 300px;
     margin: 60px auto 0;
-    margin-top: 2%;
     font-family: 'Comic Sans MS', sans-serif;
 }
 
@@ -75,7 +82,7 @@ body {
 
 
 .countResultVsPc {
-    width: 40%;
+    width: 100%;
     margin-top: 3%;
     display: flex;
     justify-content: space-evenly;
@@ -94,10 +101,11 @@ body {
 
 
 .ClearHistoryCount {
-    margin-top: 3%;
+    margin-top: 8%;
     display: flex;
     justify-content: space-evenly;
     font-family: 'Comic Sans MS', sans-serif;
+    width: 600px;
 }
 
 
@@ -113,7 +121,7 @@ body {
 
 
 /* home page */
-.homePage{
+.homePage {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -200,6 +208,14 @@ body {
     .countResultVsPc {
         width: 80%;
         margin-top: 5%;
+    }
+
+    .ClearHistoryCount {
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Comic Sans MS', sans-serif;
+        width: 400px;
     }
 
 
