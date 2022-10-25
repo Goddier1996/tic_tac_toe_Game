@@ -24,7 +24,7 @@ function Home() {
                     * can play against User vs User.
                     <br />
                     <br />
-                    Please chioose your Game vs Pc or vs User :
+                    Please chioose your Game vs Pc or vs User:
                 </p>
             </div>
 

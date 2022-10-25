@@ -113,9 +113,15 @@ body {
 
 
 /* home page */
-
+.homePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .chooiseOptions {
+    width: 900px;
     display: flex;
     justify-content: space-around;
 }
@@ -133,7 +139,6 @@ body {
 
 .logo img {
     height: 280px;
-    margin-top: 2%;
 }
 
 
@@ -160,7 +165,7 @@ body {
 .styleMenu {
     display: flex;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 2%;
     font-family: 'Comic Sans MS', sans-serif;
 }
 
@@ -218,4 +223,8 @@ body {
         margin-top: 13%;
     }
 
+
+    .chooiseOptions {
+        width: auto;
+    }
 }
