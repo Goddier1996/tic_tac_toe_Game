@@ -4,7 +4,7 @@
 in this Game you can play:
 1) user vs user
 2) user vs pc
-
+ 
 and you can see a result count,how much win and more.
 
 Link website - https://tic-tac-toe-game-cool.netlify.app 
