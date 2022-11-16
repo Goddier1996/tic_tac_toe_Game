@@ -10,7 +10,7 @@ and you can see a result count,how much win and more.
 Link website - https://tic-tac-toe-game-cool.netlify.app 
 
  
-# Video :
+# Video : 
   
 
 https://user-images.githubusercontent.com/59862302/197387716-fa804ee2-ce64-4cf4-8f04-b5ee22cd4a07.mp4
