@@ -8,7 +8,7 @@ function Menu() {
 
         <div className='styleMenu'>
             <p>
-                <b class="highlight">Let's Play to tic tac toe Game.</b>
+                <b className="highlight">Let's Play to tic tac toe Game.</b>
             </p>
         </div>
     )

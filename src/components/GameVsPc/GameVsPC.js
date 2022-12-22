@@ -287,12 +287,15 @@ function GameVsPC() {
                 <div className="boardVsPc">
 
                     {squares.map((square, index) =>
-                        <Square
-                            x={square === 'X' ? 1 : 0}
-                            o={square === 'O' ? 1 : 0}
 
-                            onClick={() => PlayerTurn(index)}
-                        />
+                        <div key={index}>
+                            <Square
+                                x={square === 'X' ? 1 : 0}
+                                o={square === 'O' ? 1 : 0}
+
+                                onClick={() => PlayerTurn(index)}
+                            />
+                        </div>
                     )}
                 </div>
             </div>
