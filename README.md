@@ -7,7 +7,7 @@ in this Game you can play:
  
 and you can see a result count,how much win and more.
 
-Link website - https://tic-toe-game-free.on.fleek.co
+Link website - https://tic-toe-mini-game.netlify.app
 
  
 # Video : 
